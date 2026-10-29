@@ -1,6 +1,6 @@
 # Fugue · Courir, sauter, ne jamais s'arrêter
 
-> Jour 15 du défi **30 jours, 30 projets** · JavaScript · Canvas · Web Audio · 🚀 **Mise en ligne : [fugue.projectp.fr](https://fugue.projectp.fr)**
+> Jour 15 du défi **30 jours, 30 projets** · JavaScript · Canvas · Web Audio · 🟢 **En ligne : [fugue.projectp.fr](https://fugue.projectp.fr)**
 
 ![Fugue, l'accueil](docs/preview.png)
 
