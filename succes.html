@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Succès · Fugue</title>
+  <meta name="description" content="Les 100 succès de Fugue : tempo, distance, notes, bonus, défis du jour, et quinze secrets à débusquer.">
+  <meta name="theme-color" content="#24150e">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Fugue">
+  <meta property="og:title" content="Succès · Fugue">
+  <meta property="og:description" content="Les 100 succès de Fugue : tempo, distance, notes, bonus, défis du jour, et quinze secrets à débusquer.">
+  <meta property="og:url" content="https://fugue.projectp.fr/succes.html">
+  <link rel="canonical" href="https://fugue.projectp.fr/succes.html">
+  <meta property="og:image" content="https://fugue.projectp.fr/docs/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Fugue · aperçu du jeu">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,100..900,0..100,0..1&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/site.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <header class="top">
+    <a class="badge" href="index.html" aria-label="Fugue, retour à l'accueil">
+      <svg viewBox="0 0 120 120" aria-hidden="true">
+        <defs><path id="ring" d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0"/></defs>
+        <text class="badge-text"><textPath href="#ring">Fugue · face A · 33 tours · funk ·</textPath></text>
+        <circle cx="60" cy="60" r="24" class="badge-disc"/>
+        <circle cx="60" cy="60" r="9" class="badge-label"/>
+        <circle cx="60" cy="60" r="2" class="badge-hole"/>
+      </svg>
+    </a>
+    <nav class="nav" aria-label="Pages">
+      <a href="index.html#jouer">Jouer</a>
+      <a href="index.html#defis">Défis du jour</a>
+      <a href="succes.html" aria-current="page">Succès</a>
+      <span class="nav-day">Jour 15 sur 30</span>
+    </nav>
+  </header>
+
+  <main class="trophies-page">
+    <h1 class="trophies-title">Succès</h1>
+    <p id="ach-count" class="ach-count"></p>
+    <p class="ach-intro">Cent succès, du premier pas au mur du son. Quinze sont secrets : on les découvre en jouant. Tout reste dans ce navigateur.</p>
+    <div class="filters" id="cat-filters" role="group" aria-label="Famille"></div>
+    <div class="filters" id="state-filters" role="group" aria-label="État"></div>
+    <ul id="ach-list" class="ach-list"></ul>
+    <p id="ach-empty" class="ach-empty" hidden>Rien ici pour l'instant. Une course de plus ?</p>
+    <p><a class="ach-more" href="index.html#jouer">Retour à la course</a></p>
+  </main>
+
+  <footer class="back">
+    <p class="back-name" aria-hidden="true">Fugue</p>
+    <div class="back-cols">
+      <p>Fugue, c'est la forme musicale de Bach, et c'est aussi s'enfuir. Un jeu fait en une journée, en JavaScript, Canvas et Web Audio.</p>
+      <p>Jour 15 du défi <a href="https://projectp.fr/">30 jours, 30 projets</a>.</p>
+    </div>
+  </footer>
+
+  <div class="grain" aria-hidden="true"></div>
+  <script type="module" src="js/trophies-page.js"></script>
+</body>
+</html>

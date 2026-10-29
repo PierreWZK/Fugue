@@ -1,0 +1,3 @@
+node_modules/
+.playwright-mcp/
+.impeccable/hook.cache.json

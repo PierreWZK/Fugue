@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fugue · Courir, sauter, ne jamais s'arrêter</title>
+  <meta name="description" content="Fugue, une course infinie sur un rythme de funk : sauter, glisser, ne jamais s'arrêter. Les obstacles tombent sur les temps. Quatre niveaux, deux défis du jour, cent succès.">
+  <meta name="theme-color" content="#24150e">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Fugue">
+  <meta property="og:title" content="Fugue · Courir, sauter, ne jamais s'arrêter">
+  <meta property="og:description" content="Fugue, une course infinie sur un rythme de funk : sauter, glisser, ne jamais s'arrêter. Les obstacles tombent sur les temps. Quatre niveaux, deux défis du jour, cent succès.">
+  <meta property="og:url" content="https://fugue.projectp.fr/">
+  <link rel="canonical" href="https://fugue.projectp.fr/">
+  <meta property="og:image" content="https://fugue.projectp.fr/docs/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Fugue · aperçu du jeu, un coureur sous un soleil couchant 70s">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,100..900,0..100,0..1&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/site.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Fugue",
+    "url": "https://fugue.projectp.fr/",
+    "description": "Une course infinie sur un rythme de funk : sauter, glisser, ne jamais s'arrêter. Les obstacles tombent sur les temps. Quatre niveaux, deux défis du jour et cent succès.",
+    "applicationCategory": "GameApplication",
+    "operatingSystem": "Web",
+    "inLanguage": "fr",
+    "isAccessibleForFree": true,
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "EUR"
+    },
+    "image": "https://fugue.projectp.fr/docs/og.png",
+    "author": {
+      "@type": "Person",
+      "name": "PierreWZK",
+      "url": "https://github.com/PierreWZK"
+    },
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "ProjectP",
+      "url": "https://projectp.fr/"
+    }
+  }
+  </script>
+</head>
+<body>
+  <header class="top">
+    <a class="badge" href="#haut" aria-label="Fugue, retour en haut">
+      <svg viewBox="0 0 120 120" aria-hidden="true">
+        <defs><path id="ring" d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0"/></defs>
+        <text class="badge-text"><textPath href="#ring">Fugue · face A · 33 tours · funk ·</textPath></text>
+        <circle cx="60" cy="60" r="24" class="badge-disc"/>
+        <circle cx="60" cy="60" r="9" class="badge-label"/>
+        <circle cx="60" cy="60" r="2" class="badge-hole"/>
+      </svg>
+    </a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#jouer">Jouer</a>
+      <a href="#regles">Comment jouer</a>
+      <a href="#defis">Défis du jour</a>
+      <a href="succes.html">Succès</a>
+      <span class="nav-day">Jour 15 sur 30</span>
+    </nav>
+  </header>
+
+  <main id="haut">
+    <section class="hero" aria-labelledby="titre">
+      <div class="hero-copy">
+        <p class="hero-kicker">Courir, sauter,</p>
+        <h1 id="titre" class="stack" data-text="Fugue">Fugue</h1>
+        <p class="hero-tag">ne jamais s'arrêter.</p>
+        <p class="hero-lead">Une course infinie sur un rythme de funk. Les obstacles tombent sur les temps : écoute la basse, et saute.</p>
+      </div>
+      <a class="cta" href="#jouer"><span>Jouer maintenant</span></a>
+      <svg class="waves" viewBox="0 0 600 900" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
+        <defs>
+          <path id="wave" d="M520,-40 C300,120 640,260 420,400 C230,520 120,430 160,560 C210,720 520,640 460,820 C430,900 380,940 380,960"/>
+        </defs>
+        <use href="#wave" class="w w1" pathLength="1"/>
+        <use href="#wave" class="w w2" pathLength="1"/>
+        <use href="#wave" class="w w3" pathLength="1"/>
+        <use href="#wave" class="w w4" pathLength="1"/>
+        <use href="#wave" class="w w5" pathLength="1"/>
+      </svg>
+    </section>
+
+    <section id="jouer" class="play" aria-labelledby="titre-jouer">
+      <div class="section-head" data-reveal>
+        <h2 id="titre-jouer">Face A : la course</h2>
+        <p>Le coureur part tout seul. Toi, tu gardes le rythme : un saut, une glissade, et le tempo qui monte.</p>
+      </div>
+      <fieldset class="levels" data-reveal>
+        <legend>Niveau</legend>
+        <label><input type="radio" name="level" value="easy"><span>Facile <small>160 BPM · ×1</small></span></label>
+        <label><input type="radio" name="level" value="medium" checked><span>Moyen <small>180 BPM · ×1,5</small></span></label>
+        <label><input type="radio" name="level" value="hard"><span>Difficile <small>200 BPM · ×2</small></span></label>
+        <label><input type="radio" name="level" value="impossible"><span>Impossible <small>sans limite · ×3</small></span></label>
+      </fieldset>
+      <div class="sleeve" data-reveal>
+        <div class="stage">
+          <canvas id="game" width="960" height="360" tabindex="0" aria-label="Jeu Fugue : appuyer pour lancer, Espace pour sauter, flèche bas pour glisser"></canvas>
+          <div class="hud" aria-hidden="true">
+            <div class="dist" id="score">0</div>
+            <div class="bpm"><span id="dist">0 m</span> · <span id="bpm">100 BPM</span></div>
+            <div class="best" id="best"></div>
+          </div>
+          <div class="over" id="over">
+            <p class="over-title" id="over-title">Prêt ?</p>
+            <p class="over-stats" id="over-stats" hidden></p>
+            <p class="over-hint" id="over-hint">Touche l'écran ou appuie sur Espace pour lancer la face A</p>
+          </div>
+        </div>
+      </div>
+      <p class="keys" data-reveal>
+        <kbd>Espace</kbd> ou <kbd>↑</kbd> sauter · <kbd>↓</kbd> glisser (en l'air : descente rapide) · <kbd>M</kbd> couper le son.
+        Sur téléphone : moitié gauche pour sauter, moitié droite pour glisser.
+      </p>
+    </section>
+
+    <section id="regles" class="rules" aria-labelledby="titre-regles">
+      <div class="rules-copy" data-reveal>
+        <h2 id="titre-regles">Trois gestes, un tempo</h2>
+        <p>Chaque obstacle tombe sur un temps de la boucle. Plus tu cours, plus la musique accélère, et plus les obstacles se rapprochent. Aucun n'est impossible : tous ont été franchis par un joueur parfait simulé.</p>
+        <ul class="obstacles">
+          <li>
+            <span class="ob" aria-hidden="true"><img src="assets/game/amp.png" alt="" width="44" height="44"></span>
+            <strong>Un ampli</strong> un petit saut suffit.
+          </li>
+          <li>
+            <span class="ob" aria-hidden="true"><img src="assets/game/amp.png" alt="" width="20" height="20"><img src="assets/game/amp-b.png" alt="" width="20" height="20"><img src="assets/game/amp.png" alt="" width="20" height="20"></span>
+            <strong>Un mur d'amplis</strong> garde le doigt appuyé pour sauter plus haut.
+          </li>
+          <li>
+            <span class="ob ob-hang" aria-hidden="true"><img src="assets/game/crate002.png" alt="" width="32" height="32"><img src="assets/game/barrier.png" alt="" width="32" height="13"></span>
+            <strong>Des caisses suspendues</strong> glisse dessous.
+          </li>
+        </ul>
+      </div>
+      <div class="slip" data-reveal>
+        <p class="slip-title">Tracklist · face A</p>
+        <dl class="tracks">
+          <div><dt>Sauter</dt><dd>Espace, ↑, ou moitié gauche</dd></div>
+          <div><dt>Sauter plus haut</dt><dd>garder appuyé</dd></div>
+          <div><dt>Glisser</dt><dd>↓, ou moitié droite</dd></div>
+          <div><dt>Descente rapide</dt><dd>glisser en l'air</dd></div>
+          <div><dt>Couper le son</dt><dd>M</dd></div>
+          <div><dt>Tempo de départ</dt><dd>100 BPM</dd></div>
+        </dl>
+        <p class="slip-total">De 160 à 200 BPM, ou sans limite en Impossible</p>
+        <p class="slip-title slip-b">Bonus · face B</p>
+        <dl class="tracks">
+          <div><dt>♪ Note</dt><dd>+10 points</dd></div>
+          <div><dt>★ Disque d'or</dt><dd>invincible 10 s</dd></div>
+          <div><dt>⇧ Semelles compensées</dt><dd>saut +30 %, 10 s</dd></div>
+          <div><dt>» Avance rapide</dt><dd>saut dans le temps</dd></div>
+          <div><dt>▲ Ampli-fusée</dt><dd>vol, 6 s</dd></div>
+          <div><dt>33 tours</dt><dd>tempo −20 BPM</dd></div>
+          <div><dt>◎ Micro</dt><dd>aimant à notes, 10 s</dd></div>
+          <div><dt>×2 Boule à facettes</dt><dd>notes doublées, 15 s</dd></div>
+          <div><dt>▣ Pochette</dt><dd>absorbe un choc</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="defis" class="daily" aria-labelledby="titre-defis">
+      <div class="section-head" data-reveal>
+        <h2 id="titre-defis">Deux défis par jour</h2>
+        <p>La même course pour tout le monde, tirée de la date, en niveau Moyen. Une tentative chacun, et une série qui grandit si tu reviens chaque jour.</p>
+        <p id="streak" class="streak"></p>
+      </div>
+      <div class="cards">
+        <article class="card card-score" data-reveal>
+          <h3>Partition du jour</h3>
+          <p>Un morceau de 32 mesures et trois vies. Chaque mesure devient une case de ta partition.</p>
+          <div id="partition-grid" class="score-grid" aria-label="Ta partition du jour"></div>
+          <p id="partition-status" class="daily-status"></p>
+          <div class="daily-actions">
+            <button type="button" id="play-partition" class="daily-btn">Jouer la partition</button>
+            <button type="button" id="share-partition" class="daily-btn" hidden>Partager</button>
+          </div>
+        </article>
+        <article class="card card-run" data-reveal>
+          <h3>Course du jour</h3>
+          <p>La course infinie du jour, avec une seule vie. On compare la distance et le tempo atteint.</p>
+          <p id="run-result" class="run-result"></p>
+          <p id="run-status" class="daily-status"></p>
+          <div class="daily-actions">
+            <button type="button" id="play-course" class="daily-btn">Jouer la course</button>
+            <button type="button" id="share-course" class="daily-btn" hidden>Partager</button>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section id="succes" class="trophies" aria-labelledby="titre-succes">
+      <div class="section-head" data-reveal>
+        <h2 id="titre-succes">Succès</h2>
+        <p id="ach-count" class="ach-count"></p>
+        <p id="ach-stats" class="ach-stats"></p>
+      </div>
+      <ul id="ach-list" class="ach-list" data-reveal></ul>
+      <p data-reveal><a class="ach-more" href="succes.html">Voir les 100 succès</a></p>
+    </section>
+  </main>
+
+  <footer class="back">
+    <p class="back-name" aria-hidden="true">Fugue</p>
+    <div class="back-cols">
+      <p>Fugue, c'est la forme musicale de Bach, et c'est aussi s'enfuir. Un jeu fait en une journée, en JavaScript, Canvas et Web Audio.</p>
+      <p>Jour 15 du défi <a href="https://projectp.fr/">30 jours, 30 projets</a>.</p>
+      <p class="credits">Images libres (CC0), recolorées pour le jeu : personnage <a href="https://kenney.nl/assets/toon-characters">Toon Characters</a> de Kenney, décor <a href="https://opengameart.org/content/2d-desert-platformer-pack">2D Desert Platformer Pack</a> de KingCreator11, amplis et barrière <a href="https://kenney.nl/assets/platformer-pack-industrial">Platformer Pack Industrial</a> de Kenney, caisses <a href="https://opengameart.org/content/boxes-and-crates-svg-and-pngs">Boxes and crates</a> de SpriteAttack.</p>
+    </div>
+  </footer>
+
+  <div class="grain" aria-hidden="true"></div>
+  <script type="module" src="js/site.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

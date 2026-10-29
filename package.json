@@ -1,0 +1,10 @@
+{
+  "name": "fugue",
+  "private": true,
+  "description": "Fugue : courir, sauter, ne jamais s'arrêter (jour 15 du défi 30 jours, 30 projets)",
+  "type": "module",
+  "scripts": {
+    "start": "npx serve .",
+    "test": "node --test"
+  }
+}
