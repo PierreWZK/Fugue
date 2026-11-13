@@ -1,8 +1,14 @@
 # Fugue · Courir, sauter, ne jamais s'arrêter
 
-> Jour 15 du défi **30 jours, 30 projets** · JavaScript · Canvas · Web Audio · 🟢 **En ligne : [fugue.projectp.fr](https://fugue.projectp.fr)**
+🌐 **[fugue.projectp.fr](https://fugue.projectp.fr/)** · Jour 15 du défi **[30 jours, 30 projets](https://projectp.fr/)** · [Dépôt du défi](https://github.com/PierreWZK/30DaysProjects)
 
-![Fugue, l'accueil](docs/preview.png)
+Stack : JavaScript, Canvas, Web Audio.
+
+[![Fugue, l'accueil](docs/preview-accueil.png)](https://fugue.projectp.fr/)
+
+<p align="center">
+  <img src="docs/preview-mobile.png" alt="Fugue sur téléphone" width="260">
+</p>
 
 Une course infinie en 2D, habillée en pochette de vinyle des années 70. Le coureur part tout seul ; on saute, on glisse, et le tempo monte. **Les obstacles tombent sur les temps** d'une boucle de funk générée en Web Audio : la musique accélère avec la course, et chaque note suit la distance.
 
@@ -49,3 +55,14 @@ JavaScript (modules, sans dépendance) · Canvas · Web Audio · Coolify.
 - **Indexation** : `robots.txt`, `sitemap.xml`, balise canonical, données structurées JSON-LD (`WebApplication` rattachée à ProjectP) et lien « 30 jours, 30 projets » vers https://projectp.fr/ dans le pied de page. Vérifier en ligne, puis me rappeler de soumettre `https://fugue.projectp.fr/sitemap.xml` dans Google Search Console.
 - **Aperçu du lien** : image Open Graph stylisée 1200 × 630 aux couleurs du projet et balises `og:*` / `twitter:card`, vérifiées en ligne.
 - **Vitrine** : la mise à jour de `30days30projects` (README et `projects.js`) se fait **après ma validation**.
+
+---
+
+## Le défi 30 jours, 30 projets
+
+Un projet complet par jour pendant 30 jours, chacun en ligne sur son propre sous-domaine.
+
+- 🗂️ **Tous les projets** : [projectp.fr](https://projectp.fr/)
+- 💻 **Le dépôt du défi** : [github.com/PierreWZK/30DaysProjects](https://github.com/PierreWZK/30DaysProjects)
+- ⬅️ **Jour précédent** : [Craftly, charte graphique client](https://craftly.projectp.fr/)
+- ➡️ **Jour suivant** : [Dépêche, actu dev et gaming](https://depeche.projectp.fr/)
